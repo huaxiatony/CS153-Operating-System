@@ -29,3 +29,6 @@ SYSCALL(getpid)
 SYSCALL(sbrk)
 SYSCALL(sleep)
 SYSCALL(uptime)
+SYSCALL(exitS)// This added by Lab1
+SYSCALL(waitpid) //This added by Lab1
+SYSCALL(hello) //This is the test file

@@ -117,7 +117,9 @@ void            sched(void);
 void            setproc(struct proc*);
 void            sleep(void*, struct spinlock*);
 void            userinit(void);
-int             wait(void);
+int             wait(int*);//edit by lab1
+int             waitpid(int,int*,int);//Added by Lab1
+void          exitS(int);//Added by Lab1
 void            wakeup(void*);
 void            yield(void);
 
